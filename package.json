@@ -10,9 +10,9 @@
     "dev:renderer": "vite",
     "dev:main": "npx tsc --project tsconfig.main.json --watch",
     "dev:electron": "./wait-for http://localhost:4500 && cross-env NODE_ENV=development electronmon .",
-    "dist:win": "npm build && npx tsc --project tsconfig.main.json && electron-packager --out=release .",
-    "dist:mac": "npm build && npx tsc --project tsconfig.main.json && electron-packager --out=release .",
-    "dist:linux": "npm build && npx tsc --project tsconfig.main.json && electron-packager --out=release .",
+    "dist:win": "npm build && npx tsc --project tsconfig.main.json && electron-packager --platform=win32 --arch=x64 --out=release .",
+    "dist:mac": "npm build && npx tsc --project tsconfig.main.json && electron-packager --platform=darwin --arch=x64 --darwin-dark-mode-support --out=release .",
+    "dist:linux": "npm build && npx tsc --project tsconfig.main.json && electron-packager --platform=linux --arch=x64 --out=release .",
     "debug:electron": "cross-env NODE_ENV=development electronmon .",
     "fix:electron": "npx electron-fix start"
   },
