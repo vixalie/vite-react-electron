@@ -32,4 +32,4 @@ degit https://gitee.com/archknight/vite-react-electron your_project_folder
 - Twin.macro 2.8.2
 - Electron 18.1.0
 
-模板中没有内置任何路由库以及状态管理库，你可以根据自己的须有和喜好自行选择使用。
+模板中没有内置任何路由库以及状态管理库，你可以根据自己的需要和喜好自行选择使用。
