@@ -13,7 +13,7 @@ npm install -g degit
 然后可以使用以下命令使用本仓库的内容。
 
 ```bash
-degit https://gitee.com/archknight/vite-react-electron your_project_folder
+degit https://github.com/vixalie/vite-react-electron.git your_project_folder
 ```
 
 在完成项目内容的初始建立以后，就可以修改`package.json`中的基本内容成自己所需要的，然后就可以开始项目的正式开发了。
